@@ -18,7 +18,7 @@ Monte Carlo simulations are used to characterise stochastic variability among mo
 
 ### v2.0.0
 
-- Fixed a Monte Carlo implementation issue in which the food environment, microbiome mapping, and agent population were regenerated for each simulation replicate.
+- Fixed an implementation issue in which the food environment, diet–microbiome mapping, and agent population were regenerated for each Monte Carlo replicate.
 - Introduced a fixed world structure across simulations to isolate stochastic variation in model dynamics.
 - Added reproducible model outputs (`.rds` files).
 - Restructured figure-generation workflows.
